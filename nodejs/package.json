@@ -1,0 +1,23 @@
+{
+  "name": "node-js-reboot",
+  "version": "1.0.0",
+  "description": "revison of node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev":"nodemon index.js"
+  },
+  "keywords": [
+    "nodejs",
+    "javascript"
+  ],
+  "author": "Rajnish Kumar Singh <rajnish31july@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "cli-color": "^2.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
